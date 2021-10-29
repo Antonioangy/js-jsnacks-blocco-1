@@ -2,16 +2,12 @@
 // Il programma stampa la somma di tutti i numeri inseriti.
 
 // chiedo all'utente di inserire 9 numeri tramite prompt
+let sum = 0
 
-const risultato = document.getElementById("somma"); 
+for (i = 0; i < 10; i++){
+    const chiediNumero = parseInt (prompt("scrivi un numero"));
+    
+    sum += chiediNumero[i];
 
-// creo un array che si riempie di numeri inseriti dall utente
-
-
-
+}
 // sommo numeri e mostro il risultato 
-
-
-
-
-
